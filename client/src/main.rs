@@ -13,6 +13,7 @@ pub mod utils;
 pub use contexts::*;
 pub use utils::*;
 
+// Main Function
 fn main() -> ClientResult<()> {
     let payer = Keypair::new();
     let client = Client::new(payer, "https://api.devnet.solana.com".into());
