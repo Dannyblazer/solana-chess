@@ -131,7 +131,7 @@ export type SolChess = {
           };
         }
       ];
-    },
+    }, 
     {
       name: "deposit";
       accounts: [
