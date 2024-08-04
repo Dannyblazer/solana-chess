@@ -14,7 +14,7 @@ describe("sol-chess", () => {
   )[0];
 
   it("Initialize User", async () => {
-    // Add your test here.
+    // Add your test here .
     const tx = await program.methods
       .initializeUser()
       .accounts({
